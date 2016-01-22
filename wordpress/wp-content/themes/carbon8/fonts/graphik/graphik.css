@@ -1,0 +1,140 @@
+/* Graphik Family [ http://fontie.flowyapps.com ] */
+
+/* Exta Light */
+@font-face {
+	font-family:'Graphik-Extralight';
+	src: url('Graphik-Extralight_gdi.eot');
+	src: url('Graphik-Extralight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-Extralight_gdi.woff') format('woff'),
+		url('Graphik-Extralight_gdi.ttf') format('truetype'),
+		url('Graphik-Extralight_gdi.svg#Graphik-Extralight') format('svg');
+	font-weight: 275;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'Graphik-ExtralightItalic';
+	src: url('Graphik-ExtralightItalic_gdi.eot');
+	src: url('Graphik-ExtralightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-ExtralightItalic_gdi.woff') format('woff'),
+		url('Graphik-ExtralightItalic_gdi.ttf') format('truetype'),
+		url('Graphik-ExtralightItalic_gdi.svg#Graphik-ExtralightItalic') format('svg');
+	font-weight: 275;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+
+/* Light */
+@font-face {
+	font-family:'Graphik-Light';
+	src: url('Graphik-Light_gdi.eot');
+	src: url('Graphik-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-Light_gdi.woff') format('woff'),
+		url('Graphik-Light_gdi.ttf') format('truetype'),
+		url('Graphik-Light_gdi.svg#Graphik-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'Graphik-LightItalic';
+	src: url('Graphik-LightItalic_gdi.eot');
+	src: url('Graphik-LightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-LightItalic_gdi.woff') format('woff'),
+		url('Graphik-LightItalic_gdi.ttf') format('truetype'),
+		url('Graphik-LightItalic_gdi.svg#Graphik-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+
+/* Medium */
+@font-face {
+	font-family:'Graphik-Medium';
+	src: url('Graphik-Medium_gdi.eot');
+	src: url('Graphik-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-Medium_gdi.woff') format('woff'),
+		url('Graphik-Medium_gdi.ttf') format('truetype'),
+		url('Graphik-Medium_gdi.svg#Graphik-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'Graphik-MediumItalic';
+	src: url('Graphik-MediumItalic_gdi.eot');
+	src: url('Graphik-MediumItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-MediumItalic_gdi.woff') format('woff'),
+		url('Graphik-MediumItalic_gdi.ttf') format('truetype'),
+		url('Graphik-MediumItalic_gdi.svg#Graphik-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+
+/* Bold */
+@font-face {
+	font-family:'Graphik-Bold';
+	src: url('Graphik-Bold_gdi.eot');
+	src: url('Graphik-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-Bold_gdi.woff') format('woff'),
+		url('Graphik-Bold_gdi.ttf') format('truetype'),
+		url('Graphik-Bold_gdi.svg#Graphik-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'Graphik-BoldItalic';
+	src: url('Graphik-BoldItalic_gdi.eot');
+	src: url('Graphik-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-BoldItalic_gdi.woff') format('woff'),
+		url('Graphik-BoldItalic_gdi.ttf') format('truetype'),
+		url('Graphik-BoldItalic_gdi.svg#Graphik-BoldItalic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+
+/* Black */
+@font-face {
+	font-family:'Graphik-Black';
+	src: url('Graphik-Black_gdi.eot');
+	src: url('Graphik-Black_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-Black_gdi.woff') format('woff'),
+		url('Graphik-Black_gdi.ttf') format('truetype'),
+		url('Graphik-Black_gdi.svg#Graphik-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}
+
+@font-face {
+	font-family:'Graphik-BlackItalic';
+	src: url('Graphik-BlackItalic_gdi.eot');
+	src: url('Graphik-BlackItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Graphik-BlackItalic_gdi.woff') format('woff'),
+		url('Graphik-BlackItalic_gdi.ttf') format('truetype'),
+		url('Graphik-BlackItalic_gdi.svg#Graphik-BlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2265;
+}

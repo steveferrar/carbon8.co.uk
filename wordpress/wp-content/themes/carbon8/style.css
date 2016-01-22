@@ -1,0 +1,19 @@
+/*
+Theme Name: Carbon8 [1.0]
+Theme URI: http://www.carbon8.co.uk
+Author: Steve Ferrar
+Author URI: http://www.steveferrar.com
+Description: Theme for Carbon8 (January 2016)
+Version: 1.0
+Tags: Custom Theme, Bootstrap, Boilerplate, Carbon8, Steve Ferrar, Rob Chenery
+*/
+
+
+/* = Get Stylesheets
+-----------------------------------------------*/
+
+/* Bootstrap */
+@import url("css/bootstrap.min.css");
+
+/* Custom */
+@import url("css/main.css");
