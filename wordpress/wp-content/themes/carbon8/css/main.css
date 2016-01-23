@@ -50,11 +50,11 @@
 		min-width:280px;
 		height:auto;
 		
-		color:#222222;
+		color:#000000;
 		font-family:'Graphik-Light', Arial, Helvetica, sans-serif;
-		font-size:20px;
+		font-size:15px;
 		font-weight:normal;
-		line-height:30px;
+		line-height:25px;
 		text-align:center;
 		
 		margin:0px auto;
@@ -83,48 +83,48 @@
 	h6{
 		color:inherit;
 		font-family:inherit;
-		font-size:20px;
+		font-size:15px;
 		font-style:normal;
 		font-weight:normal;
-		line-height:30px;	
+		line-height:25px;	
 			
-		margin:20px auto;
+		margin:15px auto;
 		padding:0px;
 	}
 	
 	p{
 		color:inherit;
 		font-family:inherit;
-		font-size:20px;
+		font-size:15px;
 		font-style:normal;
 		font-weight:normal;
-		line-height:30px;	
+		line-height:25px;	
 			
-		margin:20px auto;
+		margin:15px auto;
 		padding:0px;
 	}
 	
 	
 	/* Lists */
 	ul, ol{
-		margin:20px auto;
+		margin:15px auto;
 		padding:0px 25px;
 	}
 	
 		li{
 			color:inherit;
 			font-family:inherit;
-			font-size:20px;
+			font-size:15px;
 			font-style:normal;
 			font-weight:normal;
-			line-height:30px;
+			line-height:25px;
 		}
 	
 		ul ul, 
 		ol ol, 
 		ul ol, 
 		ol ul{
-			margin:15px auto;
+			margin:13px auto;
 			padding:0px 25px;
 		}
 		
@@ -132,26 +132,26 @@
 			ol ol li, 
 			ul ol li, 
 			ol ul li{
-				font-size:15px;
+				font-size:13px;
 				line-height:25px;
 			}
 	
 	
 	/* Emphasis */
-	strong, b{
-		font-style:normal;
-		font-weight:normal;
-		font-family:'Graphik-Medium', Arial, Helvetica, sans-serif;
-	}
-	
 	i, em{
 		font-style:normal;
 		font-weight:normal;
 		font-family:'Graphik-LightItalic', Arial, Helvetica, sans-serif;
 	}
 	
-	strong i, strong em,
-	i strong, em strong {
+	strong, b{
+		font-style:normal;
+		font-weight:normal;
+		font-family:'Graphik-Medium', Arial, Helvetica, sans-serif;
+	}
+	
+	i strong, em strong,
+	strong i, strong em{
 		font-style:normal;
 		font-weight:normal;
 		font-family:'Graphik-MediumItalic', Arial, Helvetica, sans-serif;
@@ -228,8 +228,8 @@
 		h4,
 		h5,
 		h6{
-			font-size:17px;
-			line-height:27px;
+			font-size:13px;
+			line-height:23px;
 		}
 	}
 	
@@ -244,8 +244,8 @@
 		h4,
 		h5,
 		h6{
-			font-size:15px;
-			line-height:25px;
+			font-size:11px;
+			line-height:21px;
 		}
 	}
 			
@@ -253,7 +253,7 @@
 /* = Content
 -----------------------------------------------*/
 	
-	/* -- General ---------- */
+	/* -- General Containers ---------- */
 	section{
 		width:100%;
 		height:auto;
@@ -276,10 +276,8 @@
 	}
 	
 	
-	/* -- Home Page ---------- */
-	
-	/* Thumbnails */
-	.work-thumbnails{	
+	/* -- Work Thumbnails ---------- */
+	.work-thumbnails{
 	}
 		
 		.work-thumbnails a,
@@ -310,7 +308,8 @@
 				border:0px none;
 			}
 		
-			.work-thumbnails a .caption{
+			.work-thumbnails a .caption,
+			no.js .work-thumbnails a .caption{
 				background:rgba(255,255,255,0.75);
 				
 				width:100%;
@@ -341,7 +340,8 @@
 				transition:opacity 150ms cubic-bezier(0.42, 0, 0.58, 1);
 			}
 		
-			.work-thumbnails a:hover .caption{
+			.work-thumbnails a.active .caption,
+			no.js .work-thumbnails a:hover .caption{
 				opacity:1.0;
 		
 				-webkit-transition:opacity 150ms cubic-bezier(0.42, 0, 0.58, 1);
@@ -349,6 +349,21 @@
 				-o-transition:opacity 150ms cubic-bezier(0.42, 0, 0.58, 1);
 				transition:opacity 150ms cubic-bezier(0.42, 0, 0.58, 1); 
 			}
+	
+	
+	/* -- Page Content ---------- */
+	.page-content{
+	}
+	
+	
+	/* -- Page Images ---------- */
+	.page-images{
+	}
+	
+	
+	/* -- Work Images ---------- */
+	.work-images{
+	}
 	
 	
 
@@ -373,7 +388,63 @@
 	
 	/* -- Navigation ---------- */
 	nav#navigation{
+		width:100%;
+		height:auto;
+		
+		display:block;
+		position:relative;	
+		clear:both;
+		
+		text-align:center;
+		
+		margin:0px auto;
+		padding:0px;
+		border:0px none;
 	}
+	
+		nav#navigation ul{
+			width:100%;
+			height:auto;
+			
+			display:block;
+			position:relative;
+			clear:both;
+			
+			list-style:none;
+			
+			margin:0px auto;
+			padding:0px;
+			border:0px none;
+		}
+		
+			nav#navigation ul li{
+				width:auto;
+				height:auto;
+				
+				display:inline-block;
+				position:relative;
+				clear:none;
+				
+				margin:0px auto;
+				padding:0px;
+				border:0px none;
+			}
+			
+			nav#navigation ul li.nav-work{
+				float:left;
+			}
+			
+			nav#navigation ul li.nav-contact{
+				float:right;
+			}
+			
+			body.page-id-2 nav#navigation ul li.nav-work,
+			body.post-type-archive-work nav#navigation ul li.nav-work,
+			body.single-work nav#navigation ul li.nav-work,
+			body.page-id-7 nav#navigation ul li.nav-profile,
+			body.page-id-9 nav#navigation ul li.nav-contact{
+				color:#AAAAAA;	
+			}
 		
 		
 /* = Footer

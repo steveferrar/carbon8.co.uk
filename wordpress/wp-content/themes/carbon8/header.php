@@ -69,22 +69,21 @@
 		
 			<div class="row">
 			
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div class="row">
 					<a href="<?php echo get_home_url(); ?>" title="Carbon 8"><img src="<?php bloginfo('template_url'); ?>/img/carbon8.png" alt="Carbon 8" /></a>
 				</div>
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div class="row">
 		
 					<nav id="navigation">
 						
 						<ul>
-							<!--<li class="nav-work"><a href="<?php echo get_post_type_archive_link('work'); ?>" title="Work">Work</a></li>-->
-							<li class="nav-work"><a href="<?php echo get_home_url(); ?>" title="Work">Work</a></li>
-							<li class="nav-work"><a href="<?php echo get_permalink(7); ?>" title="Profile">Profile</a></li>
-							<li class="nav-work"><a href="<?php echo get_permalink(9); ?>" title="Contact">Contact</a></li>
+							<li class="nav-work"><a href="<?php // echo get_post_type_archive_link('work'); ?><?php echo get_home_url(); ?>" title="Work">Work</a></li>
+							<li class="nav-profile"><a href="<?php echo get_permalink(7); ?>" title="Profile">Profile</a></li>
+							<li class="nav-contact"><a href="<?php echo get_permalink(9); ?>" title="Contact">Contact</a></li>
 						</ul>
 						
 					</nav>

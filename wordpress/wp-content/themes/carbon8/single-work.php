@@ -11,6 +11,10 @@ get_header(); ?>
 			<?php echo get_template_part('part', 'page-content' ); ?>
 			<?php echo get_template_part('part', 'work-images' ); ?>
 			
+						
+			<div class="newer-posts"><?php next_post_link('%link', 'Next'); ?></div>
+			<div class="older-posts"><?php previous_post_link('%link', 'Previous Article'); ?></div>
+			
 		<?php endwhile; ?>
 		
 	<?php endif; ?>
