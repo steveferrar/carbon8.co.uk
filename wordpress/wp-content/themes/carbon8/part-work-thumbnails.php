@@ -20,7 +20,7 @@ if( $workThumbnails->have_posts() ):
 
 	<section class="work-thumbnails">
 	
-		<div class="container">
+		<div class="container-fluid">
 		
 			<div class="row">
 	
@@ -32,12 +32,14 @@ if( $workThumbnails->have_posts() ):
 				?>	
 				
 					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="row">
 						<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 							<div class="caption">
 								<h2><?php the_title(); ?></h2>
 							</div>
 							<img src="<?php echo $thumbnail[0]; ?>" alt="<?php the_title(); ?>" class="full-width-image" data-no-retina>
 						</a>
+					</div>
 					</div>
 					
 				<?php 

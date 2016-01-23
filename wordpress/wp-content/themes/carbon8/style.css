@@ -15,5 +15,8 @@ Tags: Custom Theme, Bootstrap, Boilerplate, Carbon8, Steve Ferrar, Rob Chenery
 /* Bootstrap */
 @import url("css/bootstrap.min.css");
 
+/* Fonts */
+@import url("fonts/graphik/graphik.css");
+
 /* Custom */
 @import url("css/main.css");
