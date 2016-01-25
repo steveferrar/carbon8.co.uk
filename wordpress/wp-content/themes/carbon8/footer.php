@@ -16,9 +16,8 @@
 			
 				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div class="row">
-					<p><strong>Carbon 8</strong></p>
+					<p><strong><?php bloginfo( 'name' ); ?></strong></p>
 					<p>Branding. Digital. Print.</p>
-					<p>
 				</div>
 				</div>
 			
@@ -26,9 +25,9 @@
 				<div class="row">
 					<p>Get in touch</p>
 					<p>
-						+44 (0) 7850 956322
+						<?php if(get_field('phone_number', 9)): echo get_field('phone_number', 9); endif; ?>
 						<br />
-						<a href="mailto:hello@carbon8.co.uk" title="Get in touch">hello@carbon8.co.uk</a>
+						<?php if(get_field('email_address', 9)): echo '<a href="mailto:' . get_field('email_address', 9) . '" title="Get in touch">' . get_field('email_address', 9) . '</a>'; endif; ?>
 					</p>
 				</div>
 				</div>

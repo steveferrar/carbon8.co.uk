@@ -92,7 +92,8 @@ footer, header, hgroup, menu, nav, section {
 	
 	
 	html{
-		background:url('../img/background-login.png') no-repeat center center fixed #000000; 
+		/*background:url('../img/background-login.png') no-repeat center center fixed #000000;*/ 
+		background:#000000;
 		-webkit-background-size:cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
@@ -155,7 +156,7 @@ body.login div#login h1 a {}
 	}	
 	
 	.login h1 a {
-		background-image: url(../img/logo-login.png);
+		/*background-image: url(../img/logo-login.png);
 		
 		width: 326px;
 		height: 108px;
@@ -163,7 +164,10 @@ body.login div#login h1 a {}
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size: 170px 108px;
-		padding-bottom:12px;
+		padding-bottom:12px;*/
+		display:none;
+		width:0px;
+		height:0px;
 	}
 
 	body.login div#login form#loginform {

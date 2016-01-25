@@ -71,7 +71,7 @@
 			
 				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div class="row">
-					<a href="<?php echo get_home_url(); ?>" title="Carbon 8"><img src="<?php bloginfo('template_url'); ?>/img/carbon8.png" alt="Carbon 8" /></a>
+					<a href="<?php echo get_home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php /*<img src="<?php bloginfo('template_url'); ?>/img/carbon8.png" alt="Carbon 8" /> */ ?><?php bloginfo( 'name' ); ?></a>
 				</div>
 				</div>
 
