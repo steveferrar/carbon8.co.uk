@@ -28,8 +28,9 @@
 // Set post thumbnail size
 	
 	if(function_exists('add_image_size')) { 
-		// add_image_size( 'cropped', 420, 420, true);
-		// add_image_size( 'dynamic', 1440, 9999, false);
+		add_image_size( 'tall-image', 1250, 1666, true);
+		add_image_size( 'medium-image', 1250, 833, true);
+		add_image_size( 'large-image', 1250, 1666, true);
 	};
 
 
