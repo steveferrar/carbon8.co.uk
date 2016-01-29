@@ -1,6 +1,6 @@
 <?php
-/*
-The template for displaying the 404 pages.
+/**
+	The template for displaying the 404 pages.
 */
 get_header(); ?>
 		

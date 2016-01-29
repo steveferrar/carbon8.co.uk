@@ -63,33 +63,29 @@
 
 	<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]--> 
 
-	<header id="header" class="">
+	<header id="header" class="header">
 				
 		<div class="container">
 		
 			<div class="row">
 			
-				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 header__logo">
 				<div class="row">
-					<a href="<?php echo get_home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php /*<img src="<?php bloginfo('template_url'); ?>/img/carbon8.png" alt="Carbon 8" /> */ ?><?php bloginfo( 'name' ); ?></a>
+					<a href="<?php echo get_home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a>
 				</div>
 				</div>
 
-				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<nav class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 header__navigation">
 				<div class="row">
-		
-					<nav id="navigation">
 						
-						<ul>
-							<li class="nav-work"><a href="<?php // echo get_post_type_archive_link('work'); ?><?php echo get_home_url(); ?>" title="Work">Work</a></li>
-							<li class="nav-profile"><a href="<?php echo get_permalink(7); ?>" title="Profile">Profile</a></li>
-							<li class="nav-contact"><a href="<?php echo get_permalink(9); ?>" title="Contact">Contact</a></li>
-						</ul>
-						
-					</nav>
+					<ul>
+						<li class="nav--work"><a href="<?php // echo get_post_type_archive_link('work'); ?><?php echo get_home_url(); ?>" title="Work">Work</a></li>
+						<li class="nav--profile"><a href="<?php echo get_permalink(7); ?>" title="Profile">Profile</a></li>
+						<li class="nav--contact"><a href="<?php echo get_permalink(9); ?>" title="Contact">Contact</a></li>
+					</ul>
 				
 				</div>
-				</div>
+				</nav>
 			
 			</div>
 		

@@ -1,6 +1,6 @@
 <?php
-/*
-The template part for displaying all WORK THUMBNAILS.
+/**
+	The template part for displaying all WORK THUMBNAILS.
 */
 ?>
 			
@@ -18,7 +18,7 @@ $workThumbnails = new WP_Query( $workQuery );
 if( $workThumbnails->have_posts() ): 
 ?>
 
-	<section class="work-thumbnails">
+	<section class="work__thumbnails">
 	
 		<div class="container-fluid">
 		
@@ -33,7 +33,7 @@ if( $workThumbnails->have_posts() ):
 				
 					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<div class="row">
-						<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
+						<a href="<?php echo get_permalink(); ?>" title="<?php // the_title(); ?>" class="js-thumbnails">
 							<div class="caption">
 								<h2><?php the_title(); ?></h2>
 							</div>

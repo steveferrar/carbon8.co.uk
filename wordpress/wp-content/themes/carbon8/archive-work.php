@@ -1,8 +1,7 @@
 <?php
-/*
-The template for displaying the SPEAKERS archive page.
+/**
+	The template for displaying the SPEAKERS archive page.
 */
-
 get_header(); ?>
 		
 	<?php 

@@ -1,6 +1,6 @@
 <?php
-/*
-The template part for displaying all PAGE IMAGE sections.
+/**
+	The template part for displaying all WORK IMAGE sections.
 */
 ?>
 			
@@ -9,7 +9,7 @@ if(get_field('images')):
 while(has_sub_field('images')):
 ?>
 
-	<section class="work-images">
+	<section class="work__images">
 	
 		<div class="container-fluid">
 		

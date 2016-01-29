@@ -1,5 +1,5 @@
 <?php
-/*
+/**
 	The template for displaying all WORK pages.
 */
 get_header(); ?>

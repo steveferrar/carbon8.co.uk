@@ -17,18 +17,18 @@ $(document).ready(function(){
 	if($('html').hasClass('touch')){
 		// Non Mobile
 		//console.log('Mobile');
-		$('.work-thumbnails a').click(function(e){
+		$('a.js-thumbnails').click(function(e){
 			if($(this).hasClass('active')) {
 			} else {
 				e.preventDefault();
-				$('.work-thumbnails a').removeClass('active');
+				$('.js-thumbnails').removeClass('active');
 				$(this).toggleClass('active');
 			}
 		});
 	} else {
 		// Non Mobile
 		//console.log('Not Mobile');
-		$('.work-thumbnails a').hover(
+		$('.js-thumbnails').hover(
 			function() {
 				// console.log('in');
 				$(this).addClass('active');

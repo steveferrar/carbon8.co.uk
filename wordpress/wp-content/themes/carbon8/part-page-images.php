@@ -1,6 +1,6 @@
 <?php
-/*
-The template part for displaying all PAGE IMAGE sections.
+/**
+	The template part for displaying all PAGE IMAGE sections.
 */
 ?>
 			
@@ -8,7 +8,7 @@ The template part for displaying all PAGE IMAGE sections.
 if((get_field('image_1') || get_field('image_2'))):
 ?>
 
-	<section class="page-images">
+	<section class="page__images">
 	
 		<div class="container-fluid">
 		

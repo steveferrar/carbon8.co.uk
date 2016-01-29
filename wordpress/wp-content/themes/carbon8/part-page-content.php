@@ -1,10 +1,10 @@
 <?php
-/*
-The template part for displaying all CONTENT sections.
+/**
+	The template part for displaying all CONTENT sections.
 */
 ?>
 				
-<section class="page-content">
+<section class="page__content">
 
 	<div class="container">
 	

@@ -8,7 +8,7 @@
 	<?php // header.php: <div id="page-wrapper"> ?>
 	</div>
 	
-	<footer id="footer" class="">
+	<footer id="footer" class="footer">
 				
 		<div class="container">
 		
