@@ -291,7 +291,7 @@
 -----------------------------------------------*/
 	
 	
-	/* -- Work Thumbnails (Home Page) ---------- */
+	/* -- Home Page / Work Archive ---------- */
 	.work__thumbnails{
 	}
 		
@@ -363,12 +363,10 @@
 	}
 	
 	
-	/* -- Page Content ---------- */
+	/* -- General Pages ---------- */
 	.page__content{
 	}
-	
-	
-	/* -- Page Images ---------- */
+
 	.page__images{
 	}
 
@@ -382,7 +380,7 @@
 	}
 	
 	
-	/* -- Work Images ---------- */
+	/* -- Work Single ---------- */
 	.work__images{
 	}
 
@@ -393,6 +391,15 @@
 		display:block;
 		position:relative;
 		z-index:0;
+	}
+
+	.work__navigation{
+		text-align:left;
+	}
+
+	.work__navigation a{
+		color:#717070;
+		margin-right:30px;
 	}
 	
 	
