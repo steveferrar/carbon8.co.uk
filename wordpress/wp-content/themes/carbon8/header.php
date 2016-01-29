@@ -78,11 +78,16 @@
 				<nav class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6 header__navigation">
 				<div class="row">
 						
+					<?php /*
 					<ul>
 						<li class="nav--work"><a href="<?php // echo get_post_type_archive_link('work'); ?><?php echo get_home_url(); ?>" title="Work">Work</a></li>
 						<li class="nav--profile"><a href="<?php echo get_permalink(7); ?>" title="Profile">Profile</a></li>
 						<li class="nav--contact"><a href="<?php echo get_permalink(9); ?>" title="Contact">Contact</a></li>
 					</ul>
+					*/
+					?>
+					
+					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 				
 				</div>
 				</nav>
