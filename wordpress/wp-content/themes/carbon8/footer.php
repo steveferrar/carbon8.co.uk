@@ -20,17 +20,21 @@
 					<p>Branding. Digital. Print.</p>
 				</div>
 				</div>
-			
-				<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<div class="row">
-					<p>Get in touch</p>
-					<p>
-						<?php if(get_field('phone_number', 9)): echo get_field('phone_number', 9); endif; ?>
-						<br />
-						<?php if(get_field('email_address', 9)): echo '<a href="mailto:' . get_field('email_address', 9) . '" title="Get in touch">' . get_field('email_address', 9) . '</a>'; endif; ?>
-					</p>
-				</div>
-				</div>
+				
+				<?php if((get_field('phone_number', 9)) || (get_field('email_address', 9))): ?>
+					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<div class="row">
+						<p>Get in touch</p>
+						<p>
+							<?php 
+								if(get_field('phone_number', 9)): echo get_field('phone_number', 9); endif;
+								if((get_field('phone_number', 9)) || (get_field('email_address', 9))): echo '<br />'; endif;
+								if(get_field('email_address', 9)): echo '<a href="mailto:' . get_field('email_address', 9) . '" title="Get in touch">' . get_field('email_address', 9) . '</a>'; endif; 
+							?>
+						</p>
+					</div>
+					</div>
+				<?php endif; ?>
 				
 			</div>
 			
