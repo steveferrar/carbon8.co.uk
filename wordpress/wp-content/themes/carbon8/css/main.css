@@ -54,7 +54,7 @@
 		font-family:'Graphik-Light', Arial, Helvetica, sans-serif;
 		font-size:16px;
 		font-weight:normal;
-		line-height:25px;
+		line-height:24px;
 		text-align:center;
 		
 		margin:0px auto;
@@ -86,7 +86,7 @@
 		font-size:16px;
 		font-style:normal;
 		font-weight:normal;
-		line-height:25px;	
+		line-height:24px;	
 			
 		margin:15px auto;
 		padding:0px;
@@ -118,23 +118,7 @@
 			font-size:16px;
 			font-style:normal;
 			font-weight:normal;
-			line-height:25px;
-		}
-	
-	ul ul, 
-	ol ol, 
-	ul ol, 
-	ol ul{
-		margin:15px auto;
-		padding:0px 25px;
-	}
-	
-		ul ul li, 
-		ol ol li, 
-		ul ol li, 
-		ol ul li{
-			font-size:16px;
-			line-height:25px;
+			line-height:24px;
 		}
 	
 	
@@ -223,7 +207,7 @@
 		h5,
 		h6{
 			font-size:14px;
-			line-height:23px;
+			line-height:22px;
 		}
 	}
 	
@@ -239,7 +223,7 @@
 		h5,
 		h6{
 			font-size:12px;
-			line-height:21px;
+			line-height:20px;
 		}
 	}
 			
