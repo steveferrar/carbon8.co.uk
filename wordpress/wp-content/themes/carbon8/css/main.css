@@ -437,10 +437,18 @@
 		clear:both;
 		
 		list-style:none;
+
+    	text-align:justify;
 		
 		margin:0px auto;
 		padding:0px;
 		border:0px none;
+	}
+	
+	.header__navigation ul:after{
+	    width: 100%;
+	    content:'';
+	    display:inline-block;
 	}
 		
 	.header__navigation li{
@@ -455,20 +463,14 @@
 		padding:0px;
 		border:0px none;
 	}
-			
-	.header__navigation li.nav--work{
-		float:left;
-	}
 	
-	.header__navigation li.nav--contact{
-		float:right;
+	.header__navigation ul ul{
+		display:none;
 	}
-			
-	body.page-id-2 li.nav--work,
-	body.post-type-archive-work  li.nav--work,
-	body.single-work li.nav--work,
-	body.page-id-7 li.nav--profile,
-	body.page-id-9 li.nav--contact{
+
+	.current-menu-item,
+	body.post-type-archive-work  .header__navigation li:nth-child(1),
+	body.single-work  .header__navigation li:nth-child(1){
 		color:#717070;	
 	}
 		
