@@ -114,6 +114,31 @@ if(get_field('images')):
 					endif;
 					endif;
 					?>
+					
+					<?php
+					// Two Tall Images
+					if(get_sub_field('number_of_images') == 'Two_Tall_Images'):
+					if((get_sub_field('image_tall')) && (get_sub_field('image_tall'))):
+					$image_tall = wp_get_attachment_image_src( get_sub_field('image_tall') , 'tall-image' );
+					$image_tall_2 = wp_get_attachment_image_src( get_sub_field('image_tall_2') , 'tall-image' );
+					?>
+
+						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="row">
+							<img src="<?php echo $image_tall[0]; ?>" alt="<?php the_title(); ?>" class="full-width-image" data-no-retina>
+						</div>
+						</div>
+
+						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="row">
+							<img src="<?php echo $image_tall_2[0]; ?>" alt="<?php the_title(); ?>" class="full-width-image" data-no-retina>
+						</div>
+						</div>
+					
+					<?php
+					endif;
+					endif;
+					?>
 						
 				</div>
 
