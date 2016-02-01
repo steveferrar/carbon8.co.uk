@@ -21,7 +21,7 @@ if(get_field('images')):
 					<?php
 					// Large Image
 					if(get_sub_field('number_of_images') == 'One_Large_Image'):
-					if((get_sub_field('image_1')) && !(get_sub_field('image_2'))):
+					if(get_sub_field('image_1')):
 					$image_1 = wp_get_attachment_image_src( get_sub_field('image_1') , 'large-image' );
 					?>
 
@@ -67,7 +67,7 @@ if(get_field('images')):
 					if((get_sub_field('image_1')) && (get_sub_field('image_2')) && (get_sub_field('image_tall'))):
 					$image_1 = wp_get_attachment_image_src( get_sub_field('image_1') , 'medium-image' );
 					$image_2 = wp_get_attachment_image_src( get_sub_field('image_2') , 'medium-image' );
-					$image_tall = wp_get_attachment_image_src( get_sub_field('image_tall') , 'tall_image' );
+					$image_tall = wp_get_attachment_image_src( get_sub_field('image_tall') , 'tall-image' );
 					?>
 
 						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -94,7 +94,7 @@ if(get_field('images')):
 					if((get_sub_field('image_1')) && (get_sub_field('image_2')) && (get_sub_field('image_tall'))):
 					$image_1 = wp_get_attachment_image_src( get_sub_field('image_1') , 'medium-image' );
 					$image_2 = wp_get_attachment_image_src( get_sub_field('image_2') , 'medium-image' );
-					$image_tall = wp_get_attachment_image_src( get_sub_field('image_tall') , 'tall_image' );
+					$image_tall = wp_get_attachment_image_src( get_sub_field('image_tall') , 'tall-image' );
 					?>
 
 						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
