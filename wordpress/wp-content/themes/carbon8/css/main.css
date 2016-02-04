@@ -373,6 +373,14 @@
 	.page__content{
 	}
 
+	.page__content a{
+		text-decoration:underline;
+	}
+
+	body.page-id-9 .page__content a{
+		text-decoration:none;
+	}
+
 	.page__images{
 	}
 
